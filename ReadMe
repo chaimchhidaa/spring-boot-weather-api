@@ -1,0 +1,23 @@
+# Spring Boot Weather API
+
+REST API developed with Spring Boot that retrieves current
+weather information for a given city.
+
+## Technologies
+- Java 21
+- Spring Boot
+- Spring Web / RestClient
+- Maven
+- Open-Meteo API
+
+## Features
+- City geocoding
+- Current temperature
+- Current humidity
+- Input validation
+- Custom exception handling
+- Global exception handler
+
+## Endpoint
+
+GET /api/weather?city=Tunis
